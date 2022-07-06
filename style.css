@@ -1,0 +1,21 @@
+.swiper mySwiper{
+    height: 350px;
+}
+.swiper-wrapper{
+    align-items: center;
+}
+.swiper-slide{
+    height: 350px;
+    width: 400px;
+    border-radius: 7px;
+}
+.swiper-slide img{
+    height: 350px;
+    width: 400px;
+    border-radius: 7px;
+    padding: 10px;
+}
+.swiper-slide-active{
+    transform: scale(1.2);
+    transition: .4s;
+}
